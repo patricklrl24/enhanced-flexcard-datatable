@@ -1,0 +1,29 @@
+<template>
+    <template if:true={hasContact}>
+        <lightning-card title="Contact Details">
+            <div class="slds-box slds-box_xx-small">
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_fixed-layout">
+                    <thead>
+                        <tr class="slds-text-title_bold">
+                            <th>Field</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>{name}</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>{email}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </lightning-card>
+    </template>
+    <template if:false={hasContact}>
+        <p>No contact data available.</p>
+    </template>
+</template>
