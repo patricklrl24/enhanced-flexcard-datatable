@@ -6,7 +6,6 @@ Sample work of an alternative way to create an OmniStudio FlexCard datatable wit
 
 
 
-
 <a href="https://githubsfdeploy.herokuapp.com/?owner=patricklrl24&repo=enhanced-flexcard-datatable&ref=master">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
